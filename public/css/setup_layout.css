@@ -1,0 +1,125 @@
+.setup {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.setup header {
+	background-image: url(https://i.pinimg.com/736x/57/8c/5d/578c5d3925718a8766d673a7febb4cab--fabric-textures-textures-patterns.jpg);
+	height: 300px;
+	width: 100%;
+	border-bottom: 1px solid #999;
+}
+.setup header p {
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	padding: 50px;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 40px;
+	text-shadow: 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000, 1px 0 1px #000;
+}
+
+.setup .bottom-shadow{
+	position: absolute;
+	top: 300px;
+	left: 0;
+	display: block;
+	width: 100%;
+	margin-top: -8px;
+	height: 7px;
+	-moz-box-shadow: 0 7px 7px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 7px 7px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 7px 7px rgba(0, 0, 0, 0.4);				
+}
+
+.setup main {
+	background-image: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/textures/24.jpg);
+	display: block;
+	height: calc(100% - 300px);
+	padding: 20px;
+	min-height: 500px;
+}
+
+.setup main form {
+	position: relative;
+	top: 50px;
+	display: inline-block;
+	left: 50%;
+	padding: 20px 20px 30px 20px;
+	color: #fff;
+	transform: translateX(-50%);	
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+	text-align: center;
+	border: 1px solid #333;
+}
+
+.setup main form input, 
+.setup main form textarea {
+	padding: 10px 15px;
+	display: block;
+	border: 1px solid #aaa;
+	margin: 5px 0;
+	width: 100%;
+}
+
+.setup main .description {
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	padding: 20px 50px 30px 50px;
+	margin-top: 50px;
+	color: #fff;
+	transform: translateX(-50%);	
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px;
+	text-align: left;
+	border: 1px solid #333;				
+}
+
+.setup main .messages {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2);
+    display: inline-block;
+    color: #fff;
+}
+
+.setup main .messages .success {
+	color: #aaf;
+}
+
+.setup main .messages .error {
+	color: #faa;
+}
+
+.setup main .description ul li {
+	position: relative;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 1px #000;
+	cursor: pointer;
+}
+	
+.setup main .description ul li ul {
+	display: none;
+}
+
+.setup main .description ul li:focus ul	{
+	display: block;
+}
+	
+.setup main .description ul li ul li {
+	font-weight: 400;
+	color: #ffa;
+	font-size: 18px;
+}
