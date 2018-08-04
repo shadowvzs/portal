@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Blog Homepage </title>
+        <title> Portal: Setup </title>
         <link rel="stylesheet" href="/public/css/index.css?<?= time() ?>" type="text/css"/>     
 		<script src="<?= script('common') ?>"></script>
         <link rel="stylesheet" href="<?= css('setup_layout') ?>" type="text/css"/>     
